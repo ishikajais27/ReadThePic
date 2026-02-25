@@ -10,7 +10,6 @@ from app.routes import router
 
 # Load environment variables
 load_dotenv()
-
 app = FastAPI(
     title="Image to Text API - Gemini 1.5 Flash",
     description="Fast OCR API powered by Google Gemini 1.5 Flash - <1s processing, multilingual support, high accuracy",
@@ -20,7 +19,7 @@ app = FastAPI(
 # CORS middleware for Next.js frontend
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],
+    allow_origins=["http://localhost:4000"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
