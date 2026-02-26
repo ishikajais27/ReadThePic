@@ -1,18 +1,25 @@
-fastapi==0.109.0
-uvicorn[standard]==0.27.0
-python-multipart==0.0.9
-Pillow==10.2.0
+# fastapi==0.109.0
+# uvicorn[standard]==0.27.0
+# python-multipart==0.0.9
+# Pillow==10.2.0
+# python-dotenv==1.0.1
+# pydantic==2.6.0
+
+# # PyTorch - Install separately based on your system
+# # For CPU only (Windows):
+# torch==2.2.0
+# torchvision==0.17.0
+
+# # Hugging Face
+# transformers==4.37.2
+# accelerate==0.27.0
+# sentencepiece==0.2.0
+# protobuf==4.25.3
+# google-generativeai>=0.8.0
+fastapi==0.115.0
+uvicorn[standard]==0.34.0
+python-multipart==0.0.20
+Pillow==11.1.0
 python-dotenv==1.0.1
-pydantic==2.6.0
-
-# PyTorch - Install separately based on your system
-# For CPU only (Windows):
-torch==2.2.0
-torchvision==0.17.0
-
-# Hugging Face
-transformers==4.37.2
-accelerate==0.27.0
-sentencepiece==0.2.0
-protobuf==4.25.3
+pydantic==2.10.6
 google-generativeai>=0.8.0
